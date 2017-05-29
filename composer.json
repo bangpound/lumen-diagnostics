@@ -1,0 +1,13 @@
+{
+    "name": "activecampaign/diagnostics",
+    "autoload": {
+        "psr-4": {
+            "ActiveCampaign\\Diagnostics\\": "src"
+        }
+    },
+    "require": {
+        "illuminate/container": "^5.4",
+        "symfony/console": "^2.7|^3.0",
+        "zendframework/zenddiagnostics": "^1.0"
+    }
+}
